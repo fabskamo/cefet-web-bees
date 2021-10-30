@@ -22,7 +22,7 @@ p {
 }
 
 .curiosidade {
-    background-image: url(/imgs/favo-de-mel.png);
+    background-image: url(imgs/favo-de-mel.png);
     background-repeat: repeat;
     border-radius: 5px;
     border: 1px;
