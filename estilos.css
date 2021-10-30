@@ -1,0 +1,37 @@
+body {
+    background-image: linear-gradient( 0deg, rgb(86, 175, 226), rgba(46, 230, 46, 0.774), rgba(255, 238, 0, 0.616) );
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+html, body {
+    min-height: 100%;
+}
+
+p {
+    text-align: justify;
+}
+
+#titulo-principal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.curiosidade {
+    background-image: url(/imgs/favo-de-mel.png);
+    background-repeat: repeat;
+    border-radius: 5px;
+    border: 1px;
+    border-color: #fdc551;
+    padding: 10px;
+}
+
+img#imagens-dentro-de {
+    float: left;
+    margin-right: 20px;
+}
