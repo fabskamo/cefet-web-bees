@@ -5,7 +5,6 @@ body {
     margin-right: 10%;
     margin-top: 0;
     margin-bottom: 0;
-    
 }
 
 html, body {
@@ -29,9 +28,58 @@ p {
     border: 1px;
     border-color: #fdc551;
     padding: 10px;
+    min-height:  37px;
 }
 
-img#imagens-dentro-de {
+.curiosidade img {
     float: left;
     margin-right: 20px;
+    
+
+}
+
+.casta-de-abelha {
+    border-radius: 50%;
+    border: 5px double #fdc551; 
+}
+
+#operaria-e-rainha {
+    float: left;
+    margin-right: 20px;
+    shape-outside: circle(50%);
+}
+
+#zangao {
+    float: right;
+    margin-left: 20px;
+    shape-outside: circle(50%);
+}
+
+#logo {
+    background-color: rgba (255,255,255,1);
+    box-shadow: 4px 4px 4px #0003;
+    padding: 30px;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #06642a;
+    font-weight: bold;
+}
+
+a[href^="http"] {
+    background-color: rgba(255, 255, 0, 0.151);
+}
+
+p:last-of-type {
+    text-align: right;
+}
+
+img:not([alt]) {
+    border: 5px solid red;
+}
+
+#cancelar-flutuacao {
+    clear: left;
 }
